@@ -26240,7 +26240,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Score",
+                        "HighestScore1",
                         ">",
                         "20"
                       ]
@@ -26267,7 +26267,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Score",
+                        "HighestScore1",
                         "<",
                         "20"
                       ]
@@ -27672,7 +27672,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tombol clicked",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27744,16 +27743,6 @@
                       },
                       "parameters": [
                         "Score",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Level1selesai",
                         "=",
                         "0"
                       ]
@@ -27942,16 +27931,6 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Level1selesai",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetStringVariable"
                       },
                       "parameters": [
@@ -28133,16 +28112,6 @@
                       },
                       "parameters": [
                         "Score",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Level1selesai",
                         "=",
                         "0"
                       ]
@@ -35483,7 +35452,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Game selesai",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -35546,7 +35514,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Score",
+                        "HighestScore2",
                         ">",
                         "20"
                       ]
@@ -35573,7 +35541,7 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Score",
+                        "HighestScore2",
                         "<",
                         "20"
                       ]
@@ -36979,7 +36947,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Tombol clicked",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -37051,16 +37018,6 @@
                       },
                       "parameters": [
                         "Score",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Level2selesai",
                         "=",
                         "0"
                       ]
@@ -37249,16 +37206,6 @@
                     },
                     {
                       "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Level2selesai",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
                         "value": "SetStringVariable"
                       },
                       "parameters": [
@@ -37435,16 +37382,6 @@
                       },
                       "parameters": [
                         "Score",
-                        "=",
-                        "0"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Level2selesai",
                         "=",
                         "0"
                       ]
@@ -49870,7 +49807,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Game selesai",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
