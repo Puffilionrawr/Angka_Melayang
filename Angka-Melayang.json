@@ -1819,6 +1819,70 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group-2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group-3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group-4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group-5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group-6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "HomePage/KembangApi/Group-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomePage\\KembangApi\\Group-7.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1927,7 +1991,8 @@
         "gridAlpha": 0.8,
         "snap": false,
         "zoomFactor": 0.7370816317994029,
-        "windowMask": false
+        "windowMask": false,
+        "selectedLayer": ""
       },
       "objectsGroups": [],
       "variables": [],
@@ -2689,7 +2754,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28172599320796043,
+        "zoomFactor": 0.5290357402156926,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -2702,6 +2767,11 @@
         },
         {
           "name": "SoundGeser",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "name": "Meteor2",
           "type": "number",
           "value": 0
         }
@@ -11702,6 +11772,215 @@
             "lineHeight": 0,
             "color": "77;154;212"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Meteor",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Meledak",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.4,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HomePage\\KembangApi\\Group-4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 165
+                          },
+                          {
+                            "x": 86,
+                            "y": 165
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HomePage\\KembangApi\\Group-5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 165
+                          },
+                          {
+                            "x": 86,
+                            "y": 165
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HomePage\\KembangApi\\Group-6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 165
+                          },
+                          {
+                            "x": 86,
+                            "y": 165
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HomePage\\KembangApi\\Group-7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 165
+                          },
+                          {
+                            "x": 86,
+                            "y": 165
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "HomePage\\KembangApi\\Group.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 86,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 87
+                          },
+                          {
+                            "x": 169,
+                            "y": 165
+                          },
+                          {
+                            "x": 86,
+                            "y": 165
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -11980,6 +12259,9 @@
           },
           {
             "objectName": "Highscore3"
+          },
+          {
+            "objectName": "Meteor"
           }
         ]
       },
@@ -11989,7 +12271,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Awalan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -12003,24 +12284,6 @@
                   },
                   "parameters": [
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"Setting\"",
-                    "\"Music\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "GroupExists"
-                  },
-                  "parameters": [
-                    "\"Setting\"",
-                    "\"SFX\""
                   ]
                 }
               ],
@@ -12167,18 +12430,6 @@
                 },
                 {
                   "type": {
-                    "value": "SetCenter"
-                  },
-                  "parameters": [
-                    "PerahuKora",
-                    "=",
-                    "TiangKora.PointX(\"Letak\")",
-                    "=",
-                    "TiangKora.PointY(\"Letak\")"
-                  ]
-                },
-                {
-                  "type": {
                     "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                   },
                   "parameters": [
@@ -12205,6 +12456,18 @@
                     "\"easeOutCubic\"",
                     "1",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetCenter"
+                  },
+                  "parameters": [
+                    "PerahuKora",
+                    "=",
+                    "TiangKora.PointX(\"Letak\")",
+                    "=",
+                    "TiangKora.PointY(\"Letak\")"
                   ]
                 },
                 {
@@ -12376,6 +12639,125 @@
                     "Text",
                     "=",
                     "HighestScore3"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "Meteor",
+                    "RandomInRange(100, SceneWindowWidth() - 160)",
+                    "RandomInRange(50,100)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetNumberVariable"
+                  },
+                  "parameters": [
+                    "Meteor2",
+                    "+",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Meteor",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Wait"
+                  },
+                  "parameters": [
+                    "0.2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Meteor",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberVariable"
+                  },
+                  "parameters": [
+                    "Meteor2",
+                    "=",
+                    "5"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
+                      },
+                      "parameters": [
+                        "Meteor",
+                        "Animation"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "Meteor",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Wait"
+                      },
+                      "parameters": [
+                        "0.2"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetNumberVariable"
+                      },
+                      "parameters": [
+                        "Meteor2",
+                        "=",
+                        "0"
+                      ]
+                    }
                   ]
                 }
               ]
@@ -21962,7 +22344,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Awalan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -22024,6 +22405,106 @@
                   "parameters": [
                     "VolumeSFXString",
                     "VolumeSFX"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Complete\"",
+                    "\"Level1\"",
+                    "",
+                    "Level1stringlevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level1stringlevel",
+                    "Level1selesai"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level1\"",
+                    "",
+                    "Level1stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level1stringscore",
+                    "HighestScore1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Complete\"",
+                    "\"Level2\"",
+                    "",
+                    "Level2stringlevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level2stringlevel",
+                    "Level2selesai"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level2\"",
+                    "",
+                    "Level2stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level2stringscore",
+                    "HighestScore2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level3\"",
+                    "",
+                    "Level3stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level3stringscore",
+                    "HighestScore3"
                   ]
                 },
                 {
@@ -23037,7 +23518,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Spawn balon merah",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -25698,7 +26178,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Game selesai",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26232,7 +26711,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Skor dan rate",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -31193,6 +31671,146 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Setting\"",
+                    "\"Music\"",
+                    "",
+                    "VolumeMusikString"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "VolumeMusikString",
+                    "VolumeMusik"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Setting\"",
+                    "\"SFX\"",
+                    "",
+                    "VolumeSFXString"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "VolumeSFXString",
+                    "VolumeSFX"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Complete\"",
+                    "\"Level1\"",
+                    "",
+                    "Level1stringlevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level1stringlevel",
+                    "Level1selesai"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level1\"",
+                    "",
+                    "Level1stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level1stringscore",
+                    "HighestScore1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Complete\"",
+                    "\"Level2\"",
+                    "",
+                    "Level2stringlevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level2stringlevel",
+                    "Level2selesai"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level2\"",
+                    "",
+                    "Level2stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level2stringscore",
+                    "HighestScore2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level3\"",
+                    "",
+                    "Level3stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level3stringscore",
+                    "HighestScore3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PlayMusicCanal"
@@ -40797,7 +41415,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Awalan",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -40821,6 +41438,146 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Setting\"",
+                    "\"Music\"",
+                    "",
+                    "VolumeMusikString"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "VolumeMusikString",
+                    "VolumeMusik"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Setting\"",
+                    "\"SFX\"",
+                    "",
+                    "VolumeSFXString"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "VolumeSFXString",
+                    "VolumeSFX"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Complete\"",
+                    "\"Level1\"",
+                    "",
+                    "Level1stringlevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level1stringlevel",
+                    "Level1selesai"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level1\"",
+                    "",
+                    "Level1stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level1stringscore",
+                    "HighestScore1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Complete\"",
+                    "\"Level2\"",
+                    "",
+                    "Level2stringlevel"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level2stringlevel",
+                    "Level2selesai"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level2\"",
+                    "",
+                    "Level2stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level2stringscore",
+                    "HighestScore2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ReadStringFromStorage"
+                  },
+                  "parameters": [
+                    "\"Highscore\"",
+                    "\"Level3\"",
+                    "",
+                    "Level3stringscore"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "JSONToVariableStructure2"
+                  },
+                  "parameters": [
+                    "Level3stringscore",
+                    "HighestScore3"
+                  ]
+                },
                 {
                   "type": {
                     "value": "PlayMusicCanal"
