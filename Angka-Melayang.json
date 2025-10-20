@@ -1883,6 +1883,14 @@
         "name": "HomePage\\KembangApi\\Group-7.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "Game/Gameover/Group 312.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Game\\Gameover\\Group 312.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -19141,7 +19149,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740942,
+        "zoomFactor": 0.4481978045410365,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -19567,6 +19575,39 @@
           "x": 680,
           "y": -831,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Gameover",
+          "name": "TextLevel",
+          "persistentUuid": "6830148c-6c6c-42f5-84db-a326f6aa9fcd",
+          "width": 0,
+          "x": 676,
+          "y": -624,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "Gameover",
+          "name": "TextMenang",
+          "persistentUuid": "080d2a81-1ad0-4e49-bb12-9887fa74a44c",
+          "width": 305,
+          "x": 476,
+          "y": -896,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -21292,7 +21333,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Game\\Gameover\\Groupp.png",
+                      "image": "Game\\Gameover\\Group 312.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -21308,19 +21349,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 639,
+                            "x": 638,
                             "y": 0
                           },
                           {
-                            "x": 639,
+                            "x": 638,
                             "y": 654
                           },
                           {
-                            "x": 3,
+                            "x": 2,
                             "y": 654
                           }
                         ]
@@ -22250,6 +22291,102 @@
             "lineHeight": 0,
             "color": "246;218;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextLevel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "1",
+          "font": "Font\\Happy School.otf",
+          "textAlignment": "center",
+          "characterSize": 55,
+          "color": {
+            "b": 0,
+            "g": 218,
+            "r": 246
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "245;142;38",
+            "outlineThickness": 8,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "1",
+            "font": "Font\\Happy School.otf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 55,
+            "lineHeight": 0,
+            "color": "246;218;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextMenang",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Menang",
+          "font": "Font\\Happy School.otf",
+          "textAlignment": "center",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 218,
+            "r": 246
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "245;142;38",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Menang",
+            "font": "Font\\Happy School.otf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "246;218;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -22317,6 +22454,12 @@
           },
           {
             "objectName": "BoxGameover"
+          },
+          {
+            "objectName": "TextLevel"
+          },
+          {
+            "objectName": "TextMenang"
           },
           {
             "objectName": "Home"
@@ -22942,6 +23085,16 @@
                       ]
                     }
                   ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             },
@@ -26294,9 +26447,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Level1selesai",
-                        "=",
-                        "0"
+                        "Score",
+                        "<",
+                        "20"
                       ]
                     },
                     {
@@ -26327,6 +26480,17 @@
                     },
                     {
                       "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Text",
+                        "=",
+                        "\"Kalah\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                       },
                       "parameters": [
@@ -26335,6 +26499,36 @@
                         "\"Gameover\"",
                         "310",
                         "18",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextLevel",
+                        "Tween",
+                        "\"Gameover\"",
+                        "676",
+                        "394",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Tween",
+                        "\"Gameover\"",
+                        "476",
+                        "118",
                         "\"easeInOutCubic\"",
                         "1",
                         ""
@@ -26478,6 +26672,39 @@
                         ""
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Level1selesai",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Continue",
+                            "Tween",
+                            "\"Gameover\"",
+                            "548",
+                            "\"easeInOutCubic\"",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
@@ -26488,9 +26715,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Level1selesai",
-                        "=",
-                        "1"
+                        "Score",
+                        ">",
+                        "20"
                       ]
                     },
                     {
@@ -26542,6 +26769,36 @@
                         "\"Gameover\"",
                         "310",
                         "18",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextLevel",
+                        "Tween",
+                        "\"Gameover\"",
+                        "676",
+                        "394",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Tween",
+                        "\"Gameover\"",
+                        "476",
+                        "118",
                         "\"easeInOutCubic\"",
                         "1",
                         ""
@@ -28314,7 +28571,7 @@
           "isLocked": false,
           "name": "Gameover",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -28414,7 +28671,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5843784410740942,
+        "zoomFactor": 0.7370816317994044,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -28840,6 +29097,39 @@
           "x": 680,
           "y": -831,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Gameover",
+          "name": "TextLevel",
+          "persistentUuid": "36a8606c-5c71-4afc-8556-5a07c31ca416",
+          "width": 0,
+          "x": 678,
+          "y": -623,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "Gameover",
+          "name": "TextMenang",
+          "persistentUuid": "018f53b4-0925-49ac-b8fa-3a2a19a99800",
+          "width": 305,
+          "x": 473,
+          "y": -902,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -30565,7 +30855,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Game\\Gameover\\Groupp.png",
+                      "image": "Game\\Gameover\\Group 312.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -30581,19 +30871,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 639,
+                            "x": 638,
                             "y": 0
                           },
                           {
-                            "x": 639,
+                            "x": 638,
                             "y": 654
                           },
                           {
-                            "x": 3,
+                            "x": 2,
                             "y": 654
                           }
                         ]
@@ -31523,6 +31813,102 @@
             "lineHeight": 0,
             "color": "246;218;0"
           }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextLevel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "2",
+          "font": "Font\\Happy School.otf",
+          "textAlignment": "center",
+          "characterSize": 50,
+          "color": {
+            "b": 0,
+            "g": 218,
+            "r": 246
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "245;142;38",
+            "outlineThickness": 8,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "2",
+            "font": "Font\\Happy School.otf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 50,
+            "lineHeight": 0,
+            "color": "246;218;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextMenang",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Menang",
+          "font": "Font\\Happy School.otf",
+          "textAlignment": "center",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 218,
+            "r": 246
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "245;142;38",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Menang",
+            "font": "Font\\Happy School.otf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "246;218;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -31590,6 +31976,12 @@
           },
           {
             "objectName": "BoxGameover"
+          },
+          {
+            "objectName": "TextLevel"
+          },
+          {
+            "objectName": "TextMenang"
           },
           {
             "objectName": "Home"
@@ -35568,9 +35960,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Level2selesai",
-                        "=",
-                        "0"
+                        "Score",
+                        "<",
+                        "20"
                       ]
                     },
                     {
@@ -35601,6 +35993,17 @@
                     },
                     {
                       "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Text",
+                        "=",
+                        "\"Kalah\""
+                      ]
+                    },
+                    {
+                      "type": {
                         "value": "Tween::TweenBehavior::AddObjectPositionTween2"
                       },
                       "parameters": [
@@ -35609,6 +36012,35 @@
                         "\"Gameover\"",
                         "310",
                         "18",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Tween",
+                        "\"Gameover\"",
+                        "482",
+                        "118",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "TextLevel",
+                        "Tween",
+                        "\"Gameover\"",
+                        "395",
                         "\"easeInOutCubic\"",
                         "1",
                         ""
@@ -35752,6 +36184,39 @@
                         ""
                       ]
                     }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "NumberVariable"
+                          },
+                          "parameters": [
+                            "Level2selesai",
+                            "=",
+                            "1"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                          },
+                          "parameters": [
+                            "Continue",
+                            "Tween",
+                            "\"Gameover\"",
+                            "548",
+                            "\"easeInOutCubic\"",
+                            "1",
+                            ""
+                          ]
+                        }
+                      ]
+                    }
                   ]
                 },
                 {
@@ -35762,9 +36227,9 @@
                         "value": "NumberVariable"
                       },
                       "parameters": [
-                        "Level2selesai",
-                        "=",
-                        "1"
+                        "Score",
+                        ">",
+                        "20"
                       ]
                     },
                     {
@@ -35816,6 +36281,35 @@
                         "\"Gameover\"",
                         "310",
                         "18",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "TextLevel",
+                        "Tween",
+                        "\"Gameover\"",
+                        "395",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Tween",
+                        "\"Gameover\"",
+                        "482",
+                        "118",
                         "\"easeInOutCubic\"",
                         "1",
                         ""
@@ -37579,7 +38073,7 @@
           "isLocked": false,
           "name": "Gameover",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
@@ -37679,7 +38173,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.5117784035210186,
+        "zoomFactor": 0.49508400737488983,
         "windowMask": false,
         "selectedLayer": ""
       },
@@ -38105,6 +38599,39 @@
           "x": 680,
           "y": -831,
           "zOrder": 21,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "Gameover",
+          "name": "TextLevel",
+          "persistentUuid": "7fa2e73e-39eb-4a35-830f-aca04c7de942",
+          "width": 0,
+          "x": 679,
+          "y": -623,
+          "zOrder": 22,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 98,
+          "keepRatio": true,
+          "layer": "Gameover",
+          "name": "TextMenang",
+          "persistentUuid": "10263510-715a-476e-9914-3c15fce98d4e",
+          "width": 306,
+          "x": 482,
+          "y": -898,
+          "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -39830,7 +40357,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Game\\Gameover\\Groupp.png",
+                      "image": "Game\\Gameover\\Group 312.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -39846,19 +40373,19 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 3,
+                            "x": 2,
                             "y": 0
                           },
                           {
-                            "x": 639,
+                            "x": 638,
                             "y": 0
                           },
                           {
-                            "x": 639,
+                            "x": 638,
                             "y": 654
                           },
                           {
-                            "x": 3,
+                            "x": 2,
                             "y": 654
                           }
                         ]
@@ -41255,6 +41782,102 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextLevel",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "3",
+          "font": "Font\\Happy School.otf",
+          "textAlignment": "center",
+          "characterSize": 55,
+          "color": {
+            "b": 0,
+            "g": 218,
+            "r": 246
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "245;142;38",
+            "outlineThickness": 8,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "3",
+            "font": "Font\\Happy School.otf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 55,
+            "lineHeight": 0,
+            "color": "246;218;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "TextMenang",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "Tween",
+              "type": "Tween::TweenBehavior"
+            }
+          ],
+          "string": "Menang",
+          "font": "Font\\Happy School.otf",
+          "textAlignment": "center",
+          "characterSize": 70,
+          "color": {
+            "b": 0,
+            "g": 218,
+            "r": 246
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": true,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "245;142;38",
+            "outlineThickness": 10,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Menang",
+            "font": "Font\\Happy School.otf",
+            "textAlignment": "center",
+            "verticalTextAlignment": "center",
+            "characterSize": 70,
+            "lineHeight": 0,
+            "color": "246;218;0"
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -41325,6 +41948,12 @@
           },
           {
             "objectName": "BoxGameover"
+          },
+          {
+            "objectName": "TextLevel"
+          },
+          {
+            "objectName": "TextMenang"
           },
           {
             "objectName": "Home"
@@ -49865,199 +50494,513 @@
                   "parameters": []
                 }
               ],
-              "actions": [
+              "actions": [],
+              "events": [
                 {
-                  "type": {
-                    "value": "PlaySoundCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "angka melayang🎈\\main gameplay\\sfx\\level menang - angka melayang.wav",
-                    "2",
-                    "",
-                    "VolumeSFX",
-                    "1"
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Score",
+                        ">",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "angka melayang🎈\\main gameplay\\sfx\\level menang - angka melayang.wav",
+                        "2",
+                        "",
+                        "VolumeSFX",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameover\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "BoxGameover",
+                        "Tween",
+                        "\"Gameover\"",
+                        "310",
+                        "18",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Tween",
+                        "\"Gameover\"",
+                        "482",
+                        "118",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "TextLevel",
+                        "Tween",
+                        "\"Gameover\"",
+                        "395",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Home",
+                        "Tween",
+                        "\"Gameover\"",
+                        "548",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Retry",
+                        "Tween",
+                        "\"Gameover\"",
+                        "548",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Bintang1",
+                        "Tween",
+                        "\"Gameover\"",
+                        "185",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Bintang2",
+                        "Tween",
+                        "\"Gameover\"",
+                        "188",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Bintang3",
+                        "Tween",
+                        "\"Gameover\"",
+                        "187",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Skor",
+                        "Tween",
+                        "\"Gameover\"",
+                        "469",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonMerah",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonHijau",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonBiru",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonKuning",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextAngkaMerah",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextAngkaHijau",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextAngkaBiru",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "ShowLayer"
-                  },
-                  "parameters": [
-                    "",
-                    "\"Gameover\""
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "NumberVariable"
+                      },
+                      "parameters": [
+                        "Score",
+                        "<",
+                        "20"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Once"
+                      },
+                      "parameters": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "PlaySoundCanal"
+                      },
+                      "parameters": [
+                        "",
+                        "angka melayang🎈\\main gameplay\\sfx\\level menang - angka melayang.wav",
+                        "2",
+                        "",
+                        "VolumeSFX",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ShowLayer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Gameover\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "HideLayer"
+                      },
+                      "parameters": [
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Text",
+                        "=",
+                        "\"Kalah\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "BoxGameover",
+                        "Tween",
+                        "\"Gameover\"",
+                        "310",
+                        "18",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionTween2"
+                      },
+                      "parameters": [
+                        "TextMenang",
+                        "Tween",
+                        "\"Gameover\"",
+                        "482",
+                        "118",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "TextLevel",
+                        "Tween",
+                        "\"Gameover\"",
+                        "395",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Home",
+                        "Tween",
+                        "\"Gameover\"",
+                        "548",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Retry",
+                        "Tween",
+                        "\"Gameover\"",
+                        "548",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Bintang1",
+                        "Tween",
+                        "\"Gameover\"",
+                        "185",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Bintang2",
+                        "Tween",
+                        "\"Gameover\"",
+                        "188",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Bintang3",
+                        "Tween",
+                        "\"Gameover\"",
+                        "187",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
+                      },
+                      "parameters": [
+                        "Skor",
+                        "Tween",
+                        "\"Gameover\"",
+                        "469",
+                        "\"easeInOutCubic\"",
+                        "1",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonMerah",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonHijau",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonBiru",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "BalonKuning",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextAngkaMerah",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextAngkaHijau",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Delete"
+                      },
+                      "parameters": [
+                        "TextAngkaBiru",
+                        ""
+                      ]
+                    }
                   ]
                 },
                 {
-                  "type": {
-                    "value": "HideLayer"
-                  },
-                  "parameters": [
-                    "",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionTween2"
-                  },
-                  "parameters": [
-                    "BoxGameover",
-                    "Tween",
-                    "\"Gameover\"",
-                    "310",
-                    "18",
-                    "\"easeInOutCubic\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Home",
-                    "Tween",
-                    "\"Gameover\"",
-                    "548",
-                    "\"easeInOutCubic\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Retry",
-                    "Tween",
-                    "\"Gameover\"",
-                    "548",
-                    "\"easeInOutCubic\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Bintang1",
-                    "Tween",
-                    "\"Gameover\"",
-                    "185",
-                    "\"easeInOutCubic\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Bintang2",
-                    "Tween",
-                    "\"Gameover\"",
-                    "188",
-                    "\"easeInOutCubic\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Bintang3",
-                    "Tween",
-                    "\"Gameover\"",
-                    "187",
-                    "\"easeInOutCubic\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Tween::TweenBehavior::AddObjectPositionYTween2"
-                  },
-                  "parameters": [
-                    "Skor",
-                    "Tween",
-                    "\"Gameover\"",
-                    "469",
-                    "\"easeInOutCubic\"",
-                    "1",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BalonMerah",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BalonHijau",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BalonBiru",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "BalonKuning",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "TextAngkaMerah",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "TextAngkaHijau",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "TextAngkaBiru",
-                    ""
-                  ]
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": []
                 }
               ]
             }
@@ -51613,7 +52556,7 @@
           "isLocked": false,
           "name": "Gameover",
           "renderingType": "",
-          "visibility": false,
+          "visibility": true,
           "cameras": [],
           "effects": [
             {
