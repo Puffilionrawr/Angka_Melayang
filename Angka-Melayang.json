@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 243,
+    "build": 245,
     "major": 5,
     "minor": 5,
     "revision": 0
@@ -12650,125 +12650,6 @@
                   ]
                 }
               ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Meteor",
-                    "RandomInRange(100, SceneWindowWidth() - 160)",
-                    "RandomInRange(50,100)",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "Meteor2",
-                    "+",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangePlan"
-                  },
-                  "parameters": [
-                    "Meteor",
-                    "=",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Wait"
-                  },
-                  "parameters": [
-                    "0.2"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Delete"
-                  },
-                  "parameters": [
-                    "Meteor",
-                    ""
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberVariable"
-                  },
-                  "parameters": [
-                    "Meteor2",
-                    "=",
-                    "5"
-                  ]
-                }
-              ],
-              "actions": [],
-              "events": [
-                {
-                  "disabled": true,
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "AnimatableCapability::AnimatableBehavior::HasAnimationEnded"
-                      },
-                      "parameters": [
-                        "Meteor",
-                        "Animation"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Delete"
-                      },
-                      "parameters": [
-                        "Meteor",
-                        ""
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "Wait"
-                      },
-                      "parameters": [
-                        "0.2"
-                      ]
-                    },
-                    {
-                      "type": {
-                        "value": "SetNumberVariable"
-                      },
-                      "parameters": [
-                        "Meteor2",
-                        "=",
-                        "0"
-                      ]
-                    }
-                  ]
-                }
-              ]
             }
           ],
           "parameters": []
@@ -12868,20 +12749,7 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "MusicBintang",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "MouseButtonFromTextPressed"
+                            "value": "MouseButtonFromTextReleased"
                           },
                           "parameters": [
                             "",
@@ -13175,20 +13043,7 @@
                       "subInstructions": [
                         {
                           "type": {
-                            "inverted": true,
-                            "value": "SourisSurObjet"
-                          },
-                          "parameters": [
-                            "SFXBintang",
-                            "",
-                            "",
-                            ""
-                          ]
-                        },
-                        {
-                          "type": {
-                            "inverted": true,
-                            "value": "MouseButtonFromTextPressed"
+                            "value": "MouseButtonFromTextReleased"
                           },
                           "parameters": [
                             "",
@@ -17819,7 +17674,6 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
-          "folded": true,
           "name": "Progres bermain",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -23671,6 +23525,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Spawn balon merah",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -24076,35 +23931,6 @@
                   "parameters": [
                     "BalonMerah",
                     "Tercipta",
-                    "=",
-                    "0"
-                  ]
-                }
-              ]
-            },
-            {
-              "disabled": true,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
-                    "BalonMerah",
-                    "AngkaBalon",
-                    "=",
-                    "TargetNumber"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "SetNumberVariable"
-                  },
-                  "parameters": [
-                    "PityCounter",
                     "=",
                     "0"
                   ]
@@ -26331,6 +26157,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Game selesai",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -26968,6 +26795,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Skor dan rate",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
@@ -27929,6 +27757,7 @@
           "colorG": 176,
           "colorR": 74,
           "creationTime": 0,
+          "folded": true,
           "name": "Tombol clicked",
           "source": "",
           "type": "BuiltinCommonInstructions::Group",
